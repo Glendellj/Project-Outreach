@@ -12,6 +12,15 @@ The CSS for the take-action.html is in take-action.css
 /************* UNIVERSAL ELEMENTS ***************/
 /************************************************/
 
+@media screen and (max-width: 700px) {
+  .flex-container {
+    flex-wrap: wrap;
+    left: 25%;
+    right: 25%;
+    top: 30%;
+  }
+}
+
 /* TODO: Customize your font properties and background color for all elements inside the <body> and <html> tags */
 body,
 html {
