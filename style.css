@@ -15,8 +15,6 @@ The CSS for the take-action.html is in take-action.css
 @media screen and (max-width: 700px) {
   .flex-container {
     flex-wrap: wrap;
-    left: 25%;
-    right: 25%;
     top: 30%;
   }
 }
