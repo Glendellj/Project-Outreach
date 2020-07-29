@@ -246,7 +246,7 @@ li.nav a:focus {
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .flex-container {
     flex-wrap: wrap;
     top: 30%;
