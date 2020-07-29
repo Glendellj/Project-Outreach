@@ -118,6 +118,12 @@ li.nav a:hover {
   border-bottom: 4px solid #5a6063;
 }
 
+li.nav a:focus {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  color: #5a6063;
+  border-bottom: 4px solid #5a6063;
+}
+
 /************************************************/
 /*********** CSS FOR FLEXBOX HEADING ************/
 /************************************************/
@@ -249,5 +255,3 @@ li.nav a:hover {
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 
-
-/* TODO: Add additional breakpoints based on your website's design
