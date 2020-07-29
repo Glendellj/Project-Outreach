@@ -199,8 +199,14 @@ li.nav a:hover {
   background-attachment: fixed;
 }
 
+#section2 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #6e549c;
+}
+
 .main-message,
-.image-one {
+.image-one,
+.image-two{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -220,6 +226,10 @@ li.nav a:hover {
 /* TODO: Replace the current image URL with your own */
 .image-one {
   background-image: url("https://cdn.glitch.com/379e4259-b4cf-4ae6-b8f3-7b3dca1b995d%2FVolunteer_w_Children2-e1515689926134.jpg?v=1595997842695");
+}
+
+.image-two {
+  background-image: url("https://cdn.glitch.com/379e4259-b4cf-4ae6-b8f3-7b3dca1b995d%2FHomepage_Vol_Callout_960x480.jpg?v=1595998839795")
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
