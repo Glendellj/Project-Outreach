@@ -302,7 +302,7 @@ li.nav a:focus {
   padding-left: 0;
   list-style: none;
   margin-top: 0px;
-  argin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .footer-links li {
@@ -351,7 +351,7 @@ li.nav a:focus {
 .col-md-3,
 .col-sm-6,
 .row{
-  position: relative;
+  position: static;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
@@ -361,4 +361,13 @@ li.nav a:focus {
 
 .column {
   flex: 50%;
+}
+
+h6 {
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
