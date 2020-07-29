@@ -71,7 +71,6 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
   border-style: solid;
   border-color: #0D38D3;
 }
@@ -87,7 +86,7 @@ li.nav {
 li.logo a{
   float: left;
   display: block;
-  color: #0D38D3;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -100,12 +99,13 @@ li.logo a{
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 25px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  boarder: none;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
@@ -129,7 +129,7 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #0D38D3;
+  background-color: #8a919e;
   padding: 5px;
 
   /* Positioning properties */
