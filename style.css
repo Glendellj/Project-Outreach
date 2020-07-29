@@ -72,6 +72,7 @@ ul.nav-bar {
   padding: 0;
   overflow: hidden;
   background-color: #FFFFFF;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 /* TODO (optional): Change the font size*/
@@ -157,7 +158,7 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #43d6b9ff; /* Add your own background color */
+  background-color: #2e6482; /* Add your own background color */
   padding: 4%;
   margin: 3%;
   color: #0D38D3; /* Add the color of your font */
@@ -192,12 +193,19 @@ li.nav a:hover {
 
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
+#homepage {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #428eb8;
+  /* TODO: Add the property to create the parallax scrolling effect here */
+  background-attachment: fixed;
+}
+
 .main-message,
 .image-one {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #43d6b9ff;
+  background-color: #428eb8;
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
 
