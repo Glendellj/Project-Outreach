@@ -271,7 +271,6 @@ li.nav a:focus {
     
 }
 
-
 .site-footer hr {
   border-top-color: #bbb;
   opacity: 0.5;
@@ -286,6 +285,7 @@ li.nav a:focus {
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 5px;
+  margin-bottom: 5px;
   letter-spacing: 2px;
 }
 
@@ -301,6 +301,8 @@ li.nav a:focus {
 .footer-links {
   padding-left: 0;
   list-style: none;
+  margin-top: 0px;
+  argin-bottom: 5px;
 }
 
 .footer-links li {
@@ -340,16 +342,29 @@ li.nav a:focus {
   margin: 0;
 }
 
-.col-xs-6 {
-  
-
+.text-justify {
+  margin-top: 0px;
+  margin-bottom: 25px;
 }
 
 .col-md-6,
 .col-md-3,
-.col-sm-6 {
+.col-sm-6,
+.row{
   position: relative;
   min-height: 1px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
