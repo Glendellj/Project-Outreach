@@ -355,16 +355,9 @@ li.nav a:focus {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  display: flex;
 }
 
 .column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  flex: 50%;
 }
