@@ -352,11 +352,9 @@ li.nav a:focus {
 .col-sm-6,
 .row{
   position: static;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 10px;
   display: flex;
-  width: 100%;
+  
 }
 
 .column {
