@@ -298,29 +298,29 @@ li.nav a:focus {
   text-decoration: none;
 }
 
-.footer-links {
+.footer-contacts {
   padding-left: 0;
   list-style: none;
   margin-top: 0px;
   margin-bottom: 5px;
 }
 
-.footer-links li {
+.footer-contacts li {
   display: block;
 }
 
-.footer-links a {
+.footer-contacts a {
   color: #737373;
 }
 
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
+.footer-contacts a:active,
+.footer-contacts a:focus,
+.footer-contacts a:hover {
   color: #3366cc;
   text-decoration: none;
 }
 
-.footer-links.inline li {
+.footer-contact.inline li {
   display: inline-block;
 }
 
@@ -347,25 +347,24 @@ li.nav a:focus {
   margin-bottom: 25px;
 }
 
-.col-md-6,
-.col-md-3,
-.col-sm-6,
+
 .row{
   position: static;
   padding-left: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
   display: flex;
   
 }
 
 .column {
   flex: 50%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 20px;
 }
 
 h6 {
     font-size: 0.67em;
-    margin-block-start: 2.33em;
-    margin-block-end: 2.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
 }
