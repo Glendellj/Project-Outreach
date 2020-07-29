@@ -385,10 +385,15 @@ li.nav a:focus {
   background-color: #ea4c89;
 }
 
-@media (max-width: 767px) {
-  .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600;
-  }
+.col-xs-6 {
+  width: 50%;
+}
+
+.col-md-6,
+.col-md-3,
+.col-sm-6 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
