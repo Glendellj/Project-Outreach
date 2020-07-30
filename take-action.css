@@ -242,6 +242,11 @@ like a checkmark!
   float: left;
 }
 
+.column-four {
+  width: 25%;
+  float: left;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
