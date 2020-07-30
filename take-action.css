@@ -243,6 +243,7 @@ like a checkmark!
 }
 
 .column-four {
+  display: table-cell;
   width: 30%;
   float: left;
   background-color: white;
@@ -268,9 +269,12 @@ like a checkmark!
   margin-right: auto;
 }
 
+.table {
+  display: table;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table;
   clear: both;
-}h
+}
