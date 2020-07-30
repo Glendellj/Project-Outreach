@@ -50,14 +50,13 @@
   width: 50%;
   margin: 0px;
   padding: 0px;
-  flex-grow: 1;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
-  background-color: white;
+  background-color: #ece9f0;
   border-radius: 15px;
   padding: 15px;
   border-style: solid;
@@ -84,8 +83,8 @@
 
 /* The div container for the unordered action item list */
 #my-list {
-  padding: 10px 0 0 0;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   font-size: 10pt;
 }
 
@@ -93,13 +92,13 @@
 #my-list li {
   cursor: pointer;
   padding-top: 8px;
-  padding-right: 20px;
   padding-bottom: 8px;
   padding-left: 35px;
+  padding-right: 0px;
   position: relative;
   list-style-type: none;
   transition: 0.2s;
-  width: 85%;
+  width: 95%;
   color: black;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -178,7 +177,6 @@ like a checkmark!
 
   .left-container {
     width: 50%;
-    margin-right: 10%;
   }
 }
 
@@ -203,7 +201,6 @@ like a checkmark!
 
   .left-container {
     width: 40%;
-    margin-right: 10%;
   }
 }
 
@@ -267,7 +264,7 @@ like a checkmark!
 
 .volunteer-container {
   margin-bottom: 30px;
-  background-color: white;
+  background-color: #ece9f0;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px;
   border-radius: 5px;
