@@ -55,13 +55,13 @@
   margin: 0px;
   padding: 0px;
   flex-grow: 1;
-  background-color: #0d9c90;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
-  background-color: white;
+  background-color: lightblue;
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 15px;
@@ -276,4 +276,20 @@ like a checkmark!
 .row:after {
   content: "";
   clear: both;
+}
+
+.volunteer-container {
+  margin-bottom: 30px;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+}
+
+.volunteer-container a{
+  text-decoration: none;
+  color: black;
+}
+
+.volunteer-container a:hover{
+  text-decoration: underline;
 }
