@@ -233,9 +233,13 @@ like a checkmark!
   text-align: left;
 }
 
+.page p {
+  color: #303331;
+}
+
 .column {
+  width: 50%;
   float: left;
-  width: 28%;
 }
 
 /* Clear floats after the columns */
@@ -243,4 +247,4 @@ like a checkmark!
   content: "";
   display: table;
   clear: both;
-}
+}h

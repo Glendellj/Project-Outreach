@@ -355,17 +355,6 @@ li.nav a:focus {
   margin-bottom: 25px;
 }
 
-.row {
-  position: static;
-
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-
-  margin-bottom: 20px;
-}
 
 .pretty_container {
   border-radius: 5px;
