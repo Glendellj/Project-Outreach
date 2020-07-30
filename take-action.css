@@ -56,6 +56,7 @@
   padding: 0px;
   flex-grow: 1;
   background-color: #0d9c90;
+  float: right;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -229,4 +230,17 @@ like a checkmark!
 
 .page h2 {
   color: black;
+  text-align: left;
+}
+
+.column {
+  float: left;
+  width: 28%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
