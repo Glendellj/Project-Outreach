@@ -21,7 +21,7 @@ html {
   line-height: 1.5em;
   margin: 0em;
   color: white;
-  background-color: #428eb8;
+  background-color: grey;
   box-sizing: border-box;
 }
 
@@ -319,7 +319,6 @@ li.nav a:focus {
 
 .footer-contacts a {
   color: #1a1b1c;
-
 }
 
 .footer-contacts a:active,

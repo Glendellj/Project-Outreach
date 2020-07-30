@@ -5,7 +5,7 @@
 .page-header-action {
   width: 100%;
   text-transform: uppercase;
-  background-color: #428eb8;
+  background-color: grey;
   position: absolute;
 }
 
@@ -222,4 +222,10 @@ like a checkmark!
     width: 50%;
     margin-right: 10%;
   }
+}
+
+.page {
+  background-color: white;
+  margin: 20px 40px 20px 40px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
