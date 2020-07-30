@@ -215,7 +215,7 @@ like a checkmark!
   }
 
   .left-container {
-    width: 50%;
+    width: 40%;
     margin-right: 10%;
   }
 }
@@ -225,4 +225,8 @@ like a checkmark!
   margin: 20px 40px 20px 40px;
   padding: 40px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page h2 {
+  color: black;
 }
