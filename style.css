@@ -271,7 +271,7 @@ li.nav a:focus {
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
-  color: #1a1b1c;
+  color: #dcddde;
 }
 
 .container {
@@ -298,11 +298,11 @@ li.nav a:focus {
 }
 
 .site-footer a {
-  color: #262829;
+  color: #dcddde;
 }
 
 .site-footer a:hover {
-  color: #3366cc;
+  color: #2d2d2e;
   text-decoration: none;
 }
 
@@ -318,7 +318,7 @@ li.nav a:focus {
 }
 
 .footer-contacts a {
-  color: #1a1b1c;
+  color: #dcddde;
 }
 
 .footer-contacts a:active,
@@ -347,6 +347,7 @@ li.nav a:focus {
 }
 
 .copyright-text {
+  color: #dcddde;
   margin: 0;
 }
 
