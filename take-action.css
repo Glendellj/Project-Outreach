@@ -282,3 +282,9 @@ like a checkmark!
 .volunteer-container:hover {
   background-color: #d8d7d9;
 }
+
+/* ABOUT US */
+#about-us a {
+  text-decoration: underline;
+  color: #303331;
+}
